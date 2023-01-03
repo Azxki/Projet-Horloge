@@ -1,0 +1,153 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.number {
+    font-size: 140%;
+}
+
+#u1 {
+    position: absolute;
+    margin-left: 65%;
+    margin-top: -32%;
+}
+
+#d2 {
+    position: absolute;
+    margin-left: 71%;
+    margin-top: -27%;
+}
+
+#t3 {
+    position: absolute;
+    margin-left: 73%;
+    margin-top: -20%;
+}
+
+#q4 {
+    position: absolute;
+    margin-left: 71%;
+    margin-top: -12%;
+}
+
+#c5 {
+    position: absolute;
+    margin-left: 65%;
+    margin-top: -7%;
+}
+
+#s6 {
+    position: absolute;
+    margin-left: 58%;
+    margin-top: -4%;
+}
+
+#s7 {
+    position: absolute;
+    margin-left: 49%;
+    margin-top: -7%;
+}
+
+#h8 {
+    position: absolute;
+    margin-left: 44%;
+    margin-top: -12%;
+}
+
+#n9 {
+    position: absolute;
+    margin-left: 42%;
+    margin-top: -20%;
+}
+
+#d10 {
+    position: absolute;
+    margin-left: 44%;
+    margin-top: -27%;
+}
+
+#o11 {
+    position: absolute;
+    margin-left: 49%;
+    margin-top: -32%;
+}
+
+#d12 {
+    position: absolute;
+    margin-left: 57%;
+    margin-top: -35%;
+}
+
+.minutes, .hours {
+    position: absolute;
+    height: 100px;
+    width: 6px;
+    margin: auto;
+    top: -29%;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    transform-origin: bottom center;
+    transform: rotate(0deg);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.4);
+    background: black;
+}
+
+.clock {
+    border-radius: 50%;
+    background: #fff;
+    border: 5px solid white;
+    box-shadow: inset 2px 3px 8px 0 rgba(0, 0, 0, 0.1);
+    position: relative;
+    width: 350px;
+    height: 350px;
+    margin-left: 40%;
+    margin-top: 15%;
+}
+
+
+.secondes {
+    position: absolute;
+    height: 90px;
+    width: 2px;
+    margin: auto;
+    top: -26%;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    border-radius: 4px;
+    background: #ff4b3e;
+    transform-origin: bottom center;
+    transform: rotate(180deg);
+}
+
+.minutes {
+    position: absolute;
+    height: 130px;
+    width: 4px;
+    top: -38%;
+    left: 0;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.4);
+    transform: rotate(90deg);
+}
+
+.dot {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: white;
+    border: 2px solid #1b1b1b;
+    margin: auto;
+}
+
+#1 {
+    position: absolute;
+    margin-left: 30%;
+}
